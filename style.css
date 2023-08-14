@@ -421,14 +421,14 @@ footer img {
   letter-spacing: 5px;
   color: #fff;
   position: relative;
-  top: 6px;
+  top: 16px;
   text-transform: uppercase;
-  width: 500px;
+  width: 600px;
   text-align: center;
 }
 
 .download {
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -437,5 +437,21 @@ footer img {
 .download img {
   width: 500px;
   object-fit: cover;
-  max-width: 300px;
+  max-width: 200px;
+}
+
+.datos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  list-style: none;
+  color: var(--secondary);
+  font-size: 14px;
+}
+
+.datos a {
+  color: #fff;
+  opacity: 80%;
 }
