@@ -24,20 +24,41 @@ body {
   justify-content: center;
   display: flex;
   margin-top: 210px;
+  font-family: "Urbanist", sans-serif;
 }
 .register-container {
-  background-color: #f6d566;
+  /*background-color: #f6d566;
+ */
   width: 340px;
   height: 540px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: url(./Img/2019-2.jpg);
+  background-size: 1200px;
+  background-position-x: -500px;
+  background-position-y: -80px;
+  border: solid 10px #fff;
+  box-shadow: 0px 5px 20px -5px var(--fuente);
 }
 
 .register-info {
+  backdrop-filter: blur(3px);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 10px;
+  height: 100%;
+  color: #fff;
+}
+
+.register-info img {
+  max-width: 80%;
+}
+
+.register-info h2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
 }
