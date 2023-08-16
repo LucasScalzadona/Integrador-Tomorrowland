@@ -48,17 +48,54 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
   height: 100%;
   color: #fff;
 }
 
 .register-info img {
-  max-width: 80%;
+  max-width: 74%;
 }
 
 .register-info h2 {
-  font-size: 40px;
+  font-size: 43px;
   font-weight: 800;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+.register-info input {
+  background: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-color: #fff;
+}
+
+.register-input input {
+  width: 200px;
+}
+
+.register-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.register-info input::placeholder {
+  color: #fff;
+}
+
+.regsiter-condiciones {
+  font-size: 12px;
+}
+
+.register-info button {
+  width: 200px;
+  height: 32px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--background);
 }
