@@ -106,3 +106,213 @@
     margin: 0px 30px 30px 30px;
   }
 }
+
+@media (max-width: 576px) {
+  .navbar ul {
+    /* background: url(./Img/Login1.jpg); */
+    width: 100%;
+    height: calc(50vh - 80px);
+    position: absolute;
+    top: 129px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    display: none;
+    border: none;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    z-index: 1;
+    /* background-size: 1200px; */
+    background: linear-gradient(
+      0deg,
+      rgba(32, 38, 37, 0) 0%,
+      rgba(32, 38, 37, 1) 22%,
+      rgba(32, 38, 37, 1) 100%
+    );
+  }
+
+  .navbar i {
+    display: block;
+  }
+
+  #toggle-menu:checked ~ .nav {
+    display: flex;
+  }
+
+  .loginbutton {
+    display: none;
+  }
+
+  .hero-info {
+    gap: 14px;
+  }
+
+  .herologo {
+    width: 125px;
+    padding: 20px;
+    mix-blend-mode: lighten;
+  }
+
+  .hero-info h1:nth-child(2) {
+    font-size: 24px;
+  }
+
+  .hero-info h1:nth-child(3) {
+    font-size: 50px;
+  }
+
+  .hero-info h1:nth-child(4) {
+    font-size: 26px;
+  }
+
+  #about {
+    max-width: 380px;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .about-info h2 {
+    font-size: 36px;
+    font-weight: 800;
+  }
+
+  .about-info p {
+    font-size: 18px;
+    font-weight: 300;
+    width: 100%;
+  }
+
+  .about-image img {
+    display: none;
+  }
+
+  #TICKETS {
+    max-width: 380px;
+  }
+
+  .tickets-background {
+    height: 380px;
+  }
+
+  .tickets-background img {
+    display: none;
+  }
+
+  #MEMORIAS {
+    padding: 100px 0px;
+  }
+
+  .cards {
+    width: 380px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards img {
+    width: 380px;
+    height: 400px;
+    scale: 120%;
+    z-index: -1;
+    overflow: hidden;
+  }
+
+  #MEMORIAS .cards-info:nth-child(2) {
+    background-color: #c4f65b;
+  }
+
+  #MEMORIAS .cards:nth-child(4) img {
+    position: relative;
+    bottom: 0px;
+  }
+
+  #MEMORIAS .cards:nth-child(6) img {
+    position: relative;
+    bottom: 20px;
+  }
+
+  #MEMORIAS .cards:nth-child(7) img {
+    position: relative;
+    top: 20px;
+  }
+
+  #MEMORIAS .cards:nth-child(8) img {
+    position: relative;
+    bottom: 20px;
+  }
+
+  .cards-info {
+    width: 380px;
+    height: 200px;
+    gap: 10px;
+  }
+
+  .cards-info h3 {
+    max-width: 230px;
+    font-size: 24px;
+    margin: 20px 26px 0px 26px;
+  }
+
+  .cards-info p {
+    display: none;
+  }
+
+  .social-container {
+    gap: 30px;
+  }
+
+  .social {
+    gap: 14px;
+  }
+
+  .social img {
+    max-width: 20px;
+  }
+
+  .download-container {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .download-container h3 {
+    font-size: 12px;
+  }
+
+  .line {
+    width: 60%;
+  }
+
+  .download {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .download img {
+    width: 200px;
+    object-fit: cover;
+    max-width: 190px;
+  }
+
+  .datos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 30px;
+    list-style: none;
+    color: var(--secondary);
+    font-size: 10px;
+  }
+}

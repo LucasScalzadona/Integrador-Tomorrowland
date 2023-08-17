@@ -82,6 +82,16 @@ header {
   text-decoration: none;
 }
 
+.navbar i {
+  font-size: 30px;
+  display: none;
+  color: #fff;
+}
+
+#toggle-menu {
+  display: none;
+}
+
 .loginbutton {
   width: 100px;
   height: 41px;
