@@ -1,0 +1,108 @@
+@media (max-width: 992px) {
+  .hero-info {
+    gap: 18px;
+  }
+
+  .herologo {
+    width: 130px;
+    padding: 20px;
+    mix-blend-mode: lighten;
+  }
+
+  .hero-info h1:nth-child(2) {
+    font-size: 46px;
+  }
+
+  .hero-info h1:nth-child(3) {
+    font-size: 70px;
+  }
+
+  .hero-info h1:nth-child(4) {
+    font-size: 36px;
+  }
+
+  #about {
+    max-width: 800px;
+  }
+
+  .about-info h2 {
+    font-size: 34px;
+    font-weight: 800;
+  }
+
+  .about-info p {
+    font-size: 20px;
+    font-weight: 300;
+    width: 80%;
+  }
+
+  .about-image img {
+    width: 400px;
+  }
+
+  #TICKETS {
+    max-width: 800px;
+  }
+
+  .tickets-background {
+    max-height: 400px;
+  }
+
+  .tickets-background img {
+    width: 700px;
+    position: relative;
+    right: 90px;
+  }
+
+  #MEMORIAS {
+    padding: 100px 0px;
+  }
+
+  .cards {
+    width: 800px;
+    height: 400px;
+  }
+
+  .cards img {
+    width: 600px;
+    height: 400px;
+    scale: 120%;
+    z-index: -1;
+    overflow: hidden;
+  }
+
+  #MEMORIAS .cards:nth-child(4) img {
+    position: relative;
+    bottom: 0px;
+  }
+
+  #MEMORIAS .cards:nth-child(6) img {
+    position: relative;
+    bottom: 40px;
+  }
+
+  #MEMORIAS .cards:nth-child(7) img {
+    position: relative;
+    top: 40px;
+  }
+
+  #MEMORIAS .cards:nth-child(8) img {
+    position: relative;
+    bottom: 16px;
+  }
+
+  .cards-info {
+    width: 500px;
+    gap: 10px;
+  }
+
+  .cards-info h3 {
+    font-size: 24px;
+    margin: 20px 26px 0px 26px;
+  }
+
+  .cards-info p {
+    font-size: 14px;
+    margin: 0px 30px 30px 30px;
+  }
+}
