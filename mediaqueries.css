@@ -1,4 +1,9 @@
 @media (max-width: 992px) {
+  .nav {
+    position: relative;
+    right: 10px;
+  }
+
   .hero-info {
     gap: 18px;
   }
@@ -71,6 +76,10 @@
     overflow: hidden;
   }
 
+  .cards-info:hover p {
+    margin: 0px 50px 46px 46px;
+  }
+
   #MEMORIAS .cards:nth-child(4) img {
     position: relative;
     bottom: 0px;
@@ -109,9 +118,10 @@
 
 @media (max-width: 576px) {
   .navbar ul {
-    /* background: url(./Img/Login1.jpg); */
+    /*background: url(./Img/Login1.jpg);
+    */
     width: 100%;
-    height: calc(50vh - 80px);
+    height: calc(60vh - 80px);
     position: absolute;
     top: 129px;
     left: 0;
@@ -123,25 +133,47 @@
     -moz-border-radius: 0px;
     -ms-border-radius: 0px;
     -o-border-radius: 0px;
+    transition: all 0.5s;
     display: none;
     border: none;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
     z-index: 1;
-    /* background-size: 1200px; */
+    /*background-size: 1200px;
+    */
     background: linear-gradient(
       0deg,
       rgba(32, 38, 37, 0) 0%,
       rgba(32, 38, 37, 1) 22%,
       rgba(32, 38, 37, 1) 100%
     );
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+  }
+
+  .nav li a {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+  }
+
+  .nav li a:hover {
+    color: #f6d566;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
   }
 
   .navbar i {
     display: block;
+  }
+
+  .circulo {
+    display: none;
   }
 
   #toggle-menu:checked ~ .nav {
