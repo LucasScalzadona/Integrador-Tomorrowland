@@ -114,9 +114,7 @@
     font-size: 14px;
     margin: 0px 30px 30px 30px;
   }
-}
 
-@media (max-width: 576px) {
   .navbar ul {
     /*background: url(./Img/Login1.jpg);
     */
@@ -183,7 +181,9 @@
   .loginbutton {
     display: none;
   }
+}
 
+@media (max-width: 576px) {
   .hero-info {
     gap: 14px;
   }
